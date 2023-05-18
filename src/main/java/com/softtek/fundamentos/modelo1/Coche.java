@@ -1,7 +1,4 @@
-package com.softtek.fundamentos.modelo;
-
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Component;
+package com.softtek.fundamentos.modelo1;
 
 
 public class Coche {

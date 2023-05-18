@@ -1,4 +1,4 @@
-package com.softtek.Ejercicio4;
+package com.softtek.fundamentos.modelo3;
 
 public class Cliente {
 

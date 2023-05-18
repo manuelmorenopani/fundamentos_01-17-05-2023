@@ -1,13 +1,17 @@
 package com.softtek.fundamentos.modelo2;
 
-public class Coche implements Vehiculo {
+import org.springframework.stereotype.Component;
+
+@Component
+public class CocheConductor implements Vehiculo {
+
     int deposito;
 
-    public Coche(int deposito) {
+    public CocheConductor(int deposito) {
 
         this.deposito = deposito;
     }
-    public Coche() {
+    public CocheConductor() {
     }
 
     public int getDeposito() {

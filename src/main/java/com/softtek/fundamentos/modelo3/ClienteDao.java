@@ -1,6 +1,13 @@
-package com.softtek.Ejercicio4;
+package com.softtek.fundamentos.modelo3;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.stereotype.Component;
+
+@Component
 public class ClienteDao {
+    @Autowired
+@Qualifier("acessoDesarrollo")
 
     IDAO id;
 
@@ -13,7 +20,11 @@ public class ClienteDao {
     }
 
     public ClienteDao(IDAO id) {
+
         this.id = id;
+    }
+    public ClienteDao(){
+
     }
 
     public String insertar(Cliente c){

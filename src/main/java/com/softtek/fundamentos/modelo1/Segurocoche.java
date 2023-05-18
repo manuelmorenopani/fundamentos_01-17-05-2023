@@ -1,9 +1,11 @@
-package com.softtek.fundamentos.modelo;
+package com.softtek.fundamentos.modelo1;
 
+import lombok.AllArgsConstructor;
+import lombok.Data;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
-
+@Data
 @Component
 public class Segurocoche {
     @Autowired
